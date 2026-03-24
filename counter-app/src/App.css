@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.counter {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+button:nth-child(1) {
+  background: green;
+}
+
+button:nth-child(2) {
+  background: red;
+}
+
+button:nth-child(3) {
+  background: gray;
+}
